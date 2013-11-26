@@ -1,0 +1,30 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+<img id="jqueryimage" src="images/image1.jpg" class="testimage"/>
+
+<div id="scripts">
+<script type="text/javascript" src="js/pixastic.core.js"></script>
+<script type="text/javascript" src="js/pixastic.jquery.js"></script>
+<script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="js/pixastic.custom.js"></script>
+
+<script type="text/javascript">
+$(window).bind("load",
+		function() {
+			var res = $(".testimage").pixastic("invert");
+			//var res = $("#jqueryimage").pixastic("pointillize", {radius:5, density:1.5, noise:1.0, transparent:false});
+//			var res = $("#jqueryimage").pixastic("desaturate" {average:0.1} );
+		}
+	);
+</script>
+</div>
+
+</body>
+
+</html>

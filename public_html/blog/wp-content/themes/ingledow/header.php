@@ -35,7 +35,7 @@ WebFontConfig = { fontdeck: { id: '15864' } };
 <div id="header-inner-container">
 
 <div id="phone-nav">
-<p><a class="aphone" href="http://ingledow.co.uk/about">ABOUT</a> <a class="aphone" href="http://ingledow.co.uk/work">WORK</a> <a class="aphone" href="http://blog.ingledow.co.uk">BLOG</a> <a class="aphone" href="http://ingledow.co.uk/contact">CONTACT</a></p>
+<p><a class="aphone" href="http://ingledow.co.ukabout.html">ABOUT</a> <a class="aphone" href="http://ingledow.co.ukwork.html">WORK</a> <a class="aphone" href="http://blog.ingledow.co.uk">BLOG</a> <a class="aphone" href="http://ingledow.co.ukcontact.html">CONTACT</a></p>
 </div>
 
 <a class="logo" href="/">
@@ -44,10 +44,10 @@ WebFontConfig = { fontdeck: { id: '15864' } };
 
 <nav>
 	<ul>
-		<li id="about"><a href="http://ingledow.co.uk/about">ABOUT</a></li>
-		<li id="work"><a href="http://ingledow.co.uk/work">WORK</a></li>
+		<li id="about"><a href="http://ingledow.co.ukabout.html">ABOUT</a></li>
+		<li id="work"><a href="http://ingledow.co.ukwork.html">WORK</a></li>
 		<li id="blog"><a href="http://blog.ingledow.co.uk">BLOG</a></li>
-		<li id="contact"><a href="http://ingledow.co.uk/contact">CONTACT</a></li>
+		<li id="contact"><a href="http://ingledow.co.ukcontact.html">CONTACT</a></li>
 	</ul>
 </nav>
 </div>

@@ -52,27 +52,16 @@ WebFontConfig = { fontdeck: { id: '15864' } };
 	background: rgba(255,255,255,0.95);
 	padding:50px;
 	margin: 0 auto;
-	height:400px;
+	height: 200px;
 	clear:both;
 }
 
-
-.contact-colors{
-	background-image: url('images/mail-banner.png');
-	background-size:100%;
-	background-repeat: repeat-x;
-	height:10px;
-	width:500px;
-	margin:-50px -50px 40px -50px;
-}
-
-
-#contactform h1{
-	font-family:"Din Display Pro Thin", "Din Light", Helvetica, Arial, Verdana, sans-serif;
-	font-weight:100;
+#contactform h1 a{
+	font-family: "Proxima-Nova", Helvetica, Arial, sans-serif;
+	font-weight:900;
 	font-size: 170%;
-	margin: 0 0 20px 0;
-	text-transform: uppercase;
+	color: black;
+	text-align: center;
 }
 
 #contactform input{
@@ -152,18 +141,7 @@ WebFontConfig = { fontdeck: { id: '15864' } };
 	
 	<div id="contactform">
 	
-	<div class="contact-colors">
-	</div>
-	
-	<form name="contactform" method="POST" action="send_form_email.php">
-		<table width="100%" align="center">
-		  <tr><td><h1>Contact</h1></td></tr>
-		  <tr><td><input placeholder="Name" type="text" name="name" maxlength="50" size="30"></td></tr>
-		  <tr><td><input placeholder="Email" type="text" name="email" maxlength="80" size="30"></td></tr>
-		  <tr><td><textarea placeholder="Message" name="message" cols="44" rows="6"></textarea></td></tr>
-		  <tr><td><input type="submit" value="SEND" class="button"></td></tr>
-		</table>
-	</form>
+	<h1><a href="mailto:david@ingledow.co.uk">david@ingledow.co.uk</a></h1>
 	
 	</div>
 		

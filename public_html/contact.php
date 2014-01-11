@@ -35,7 +35,7 @@ WebFontConfig = { fontdeck: { id: '15864' } };
 <style>
 
 #body-container{
-	background-image: url(images/contact.jpg);
+	background-image: url(imagescontact.html.jpg);
 	background-size: cover;
 	background-position: center;
 	background-position-y: 120px;
@@ -127,7 +127,7 @@ WebFontConfig = { fontdeck: { id: '15864' } };
 <div id="header-inner-container">
 
 <div id="phone-nav">
-<p><a class="aphone" href="/about">ABOUT</a> <a class="aphone" href="work">WORK</a> <a class="aphone" href="http://blog.ingledow.co.uk">BLOG</a> <a class="aphone" href="/contact">CONTACT</a></p>
+<p><a class="aphone" href="about.html">ABOUT</a> <a class="aphone" href="work">WORK</a> <a class="aphone" href="http://blog.ingledow.co.uk">BLOG</a> <a class="aphone" href="contact.html">CONTACT</a></p>
 </div>
 
 <a class="logo" href="/">
@@ -136,10 +136,10 @@ WebFontConfig = { fontdeck: { id: '15864' } };
 
 <nav>
 	<ul>
-		<li id="about"><a href="/about">ABOUT</a></li>
-		<li id="work"><a href="/work">WORK</a></li>
+		<li id="about"><a href="about.html">ABOUT</a></li>
+		<li id="work"><a href="work.html">WORK</a></li>
 		<li id="blog"><a href="http://blog.ingledow.co.uk/">BLOG</a></li>
-		<li id="contact"><a href="/contact">CONTACT</a></li>
+		<li id="contact"><a href="contact.html">CONTACT</a></li>
 	</ul>
 </nav>
 </div>

@@ -1,0 +1,125 @@
+/* Global stlyes */
+
+body{
+	margin: 0;
+}
+
+body p{
+	font-family: 'Whitney A', 'Whitney B', Whitney HTF, Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	line-height: 1.6em;
+	font-size: 1em;
+}
+
+body a:hover{
+	color: #478ee2;
+}
+
+body a{
+	color: #1a69c6;
+}
+
+body#intro p{
+	max-width: 480px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow: scroll;
+}
+
+body#intro h1{
+	max-width: 480px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	font-family: 'Whitney A', 'Whitney B', Whitney HTF, Helvetica, Arial, sans-serif;
+	font-weight: 800;
+	font-size: 2.4em;
+}
+
+body#intro a.start{
+	max-width: 280px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #65c15b;
+	text-align: center;
+	display: block;
+	margin: 0 auto 1em;
+	overflow: hidden;
+	border-radius: 8px;
+	padding: 20px 0;
+	color: white;
+	font-family: 'Whitney A', 'Whitney B', Whitney HTF, Helvetica, Arial, sans-serif;
+	font-weight: 800;
+	font-size: 2.4em;
+	text-decoration: none;
+}
+body#intro a.start:hover{
+	background-color: #52a047;
+}
+
+body#survey h2{
+	font-size: 1.8em;
+	color: white;
+	background-color: black;
+	padding: 6px 3px 0;
+	width: 35px;
+	height: 35px;
+	border-radius: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+	font-family: 'Whitney A', 'Whitney B', Whitney HTF, Helvetica, Arial, sans-serif;
+}
+
+body#survey h1{
+	max-width: 480px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	font-family: 'Whitney A', 'Whitney B', Whitney HTF, Helvetica, Arial, sans-serif;
+	font-weight: 800;
+	font-size: 1.8em;
+}
+
+body#survey p{
+	max-width: 480px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow: scroll;
+	text-align: center;
+}
+body#survey p a{
+	min-width: 180px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid gray;
+	text-align: center;
+	margin: 0 auto 1em;
+	overflow: hidden;
+	border-radius: 5px;
+	padding: 10px 0;
+	color: gray;
+	font-family: 'Whitney A', 'Whitney B', Whitney HTF, Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+body#survey p a:hover{
+	border: 1px solid black;
+	color: black;
+}

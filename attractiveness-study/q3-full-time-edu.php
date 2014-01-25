@@ -1,3 +1,10 @@
+<?php session_start();
+$_SESSION['age'] = $_POST['age'];
+
+echo $_SESSION['age'];
+
+?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -10,14 +17,15 @@
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7777472/762142/css/fonts.css" />
 </head>
 <body id="survey" class="ft-edu">
-	<div class="progress" style="width: 20%;"></div>
+
+<div class="progress" style="width: 20%;"></div>
 <h2>
 	3
 </h2>
 <h1>
 	Are you in full time education?
 </h1>
-<form action="q4.html">
+<form action="q4.php" method="POST">
 	<input type="radio" name="edu" value="yes">Yes<br>
 	<input type="radio" name="edu" value="no">No
 	<input type="submit" value="Next">

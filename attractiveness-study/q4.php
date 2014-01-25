@@ -1,3 +1,11 @@
+<?php session_start();
+$_SESSION['edu'] = $_POST['edu'];
+
+echo $_SESSION['age'];
+echo $_SESSION['edu'];
+
+?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>

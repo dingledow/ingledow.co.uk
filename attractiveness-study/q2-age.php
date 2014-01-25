@@ -17,10 +17,10 @@
 <h1>
 	What is your age?
 </h1>
-<form action="q3-full-time-edu.html">
+<form action="q3-full-time-edu.php" method="POST">
 	<label for="age">Age</label>
-	<input id="age"></input>
-	<input type="submit" value="Next">
+	<input name="age" id="age"></input>
+	<input type="submit" name="submit" value="Next">
 </form>
 </body>
 </html>

@@ -18,7 +18,7 @@
 <h1>
 How often do you experience sexual arousal when you are in contact with someone you are not in a committed romantic relationship with?
 </h1>
-<form action="q15.html">
+<form action="q15.php" method="POST">
 	<input type="radio" name="often" value="never">Never<br>
 	<input type="radio" name="often" value="very seldom">Very seldom<br>
 	<input type="radio" name="often" value="about once every two or three months">About once every two or three months<br>

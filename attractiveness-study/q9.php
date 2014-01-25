@@ -17,7 +17,7 @@
 <h1>
 	With how many different partners have you had sexual intercourse without having an interest in a long-term committed relationship with this person?
 </h1>
-<form action="q10.html">
+<form action="q10.php" method="POST">
 	<input type="radio" name="partners" value="0">0<br>
 	<input type="radio" name="partners" value="1">1<br>
 	<input type="radio" name="partners" value="2">2<br>

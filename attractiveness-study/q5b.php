@@ -18,7 +18,7 @@
 <h1>
 	How long have you been involved in your current relationship?
 </h1>
-<form action="q6.html">
+<form action="q6.php" method="POST">
 	<input type="radio" name="cr" value="less-than-6-weeks">Less than 6 weeks<br>
 	<input type="radio" name="cr" value="6weeks-6months">6 weeks – 6 months<br>
 	<input type="radio" name="cr" value="More than 6 months but less than one year">More than 6 months but less than one year<br>

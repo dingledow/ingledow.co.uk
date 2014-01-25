@@ -18,7 +18,7 @@
 <h1>
 	Sex without love is OK?
 </h1>
-<form action="q11.html">
+<form action="q11.php" method="POST">
 	<table>
 		<tr>
 			<td>Strongly disagree</td>

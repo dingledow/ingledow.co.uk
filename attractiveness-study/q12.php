@@ -18,7 +18,7 @@
 <h1>
 	I do not want to have sex with a person until I am sure that we will have a long-term, serious relationship.
 </h1>
-<form action="q13.html">
+<form action="q13.php" method="POST">
 	<table>
 		<tr>
 			<td>Strongly disagree</td>

@@ -18,7 +18,7 @@
 <h1>
 	I can imagine myself being comfortable and enjoying "casual" sex with different partners.
 </h1>
-<form action="q12.html">
+<form action="q12.php" method="POST">
 	<table>
 		<tr>
 			<td>Strongly disagree</td>

@@ -18,7 +18,7 @@
 	Are you taking any form of hormonal contraception? 
 </h1>
 <p>E.g. contraceptive pill, injection, implant etc.</p>
-<form action="q7.html">
+<form action="q7.php" method="POST">
 	<input type="radio" name="contraception" value="yes" class="yes">Yes<br>
 	<input type="radio" name="contraception" value="no" class="no">No
 	<input type="submit" value="Next">

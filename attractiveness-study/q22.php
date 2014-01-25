@@ -71,7 +71,7 @@ Which image
 	<img class="image 6" src="image7/6.jpg" />
 	<img class="image 7" src="image7/7.jpg" />
 </p>
-<form action="q23.html">
+<form action="q23.php" method="POST">
 	<input type="range" min="1" max="7" value="4" step="1" class="range"/>
 	<input type="submit" value="Next">
 </form>

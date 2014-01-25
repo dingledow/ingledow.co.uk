@@ -35,7 +35,7 @@ $(document).ready(function() {
 <h1>
 	What is your sexual orientation?
 </h1>
-<form action="q5.html">
+<form action="q5.php">
 	<input type="radio" name="sex" value="heterosexual">Heterosexual<br>
 	<input type="radio" name="sex" value="bisexual">Bisexual<br>
 	<input type="radio" name="sex" value="homosexual">Homosexual<br>

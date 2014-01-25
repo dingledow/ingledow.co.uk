@@ -17,7 +17,7 @@
 <h1>
 	With how many different partners have you had sex within the past 12 months?
 </h1>
-<form action="q8.html">
+<form action="q8.php" method="POST">
 	<input type="radio" name="partners" value="0">0<br>
 	<input type="radio" name="partners" value="1">1<br>
 	<input type="radio" name="partners" value="2">2<br>

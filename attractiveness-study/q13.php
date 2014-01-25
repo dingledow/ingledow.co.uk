@@ -18,7 +18,7 @@
 <h1>
 How often do you have fantasies about having sex with someone you are not in a committed romantic relationship with?
 </h1>
-<form action="q14.html">
+<form action="q14.php" method="POST">
 	<input type="radio" name="often" value="never">Never<br>
 	<input type="radio" name="often" value="very seldom">Very seldom<br>
 	<input type="radio" name="often" value="about once every two or three months">About once every two or three months<br>

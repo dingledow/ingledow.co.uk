@@ -29,7 +29,7 @@ $(document).ready(function() {
 <h1>
 	How long have you been involved in your current relationship?
 </h1>
-<form action="q6.html">
+<form action="q6.php" method="POST">
 	<input type="radio" name="cr" value="casual">Casual dating partner<br>
 	<input type="radio" name="cr" value="long-term">Long term boyfriend/girlfriend<br>
 	<input type="radio" name="cr" value="husband-wife">Husband/wife<br>

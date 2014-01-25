@@ -5,7 +5,7 @@ body{
 }
 
 body p{
-	font-family: 'Whitney A', 'Whitney B', Whitney HTF, Helvetica, Arial, sans-serif;
+	font-family: 'Whitney A', 'Whitney B', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	line-height: 1.6em;
 	font-size: 1em;
@@ -36,7 +36,7 @@ body#intro h1{
 	padding-left: 20px;
 	padding-right: 20px;
 	text-align: center;
-	font-family: 'Whitney A', 'Whitney B', Whitney HTF, Helvetica, Arial, sans-serif;
+	font-family: 'Whitney A', 'Whitney B', Helvetica, Arial, sans-serif;
 	font-weight: 800;
 	font-size: 2.4em;
 }
@@ -54,7 +54,7 @@ body#intro a.start{
 	border-radius: 8px;
 	padding: 20px 0;
 	color: white;
-	font-family: 'Whitney A', 'Whitney B', Whitney HTF, Helvetica, Arial, sans-serif;
+	font-family: 'Whitney A', 'Whitney B', Helvetica, Arial, sans-serif;
 	font-weight: 800;
 	font-size: 2.4em;
 	text-decoration: none;
@@ -77,15 +77,15 @@ body#survey h2{
 	font-size: 1.5em;
 	color: white;
 	background-color: black;
-	padding: 9px 3px 0 2px;
+	padding: 6px 3px 0 2px;
 	width: 35px;
-	height: 32px;
+	height: 35px;
 	border-radius: 40px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	display: block;
-	font-family: 'Whitney A', 'Whitney B', Whitney HTF, Helvetica, Arial, sans-serif;
+	font-family: 'Whitney A', 'Whitney B', Helvetica, Arial, sans-serif;
 }
 
 body#survey h1{
@@ -96,7 +96,7 @@ body#survey h1{
 	padding-left: 20px;
 	padding-right: 20px;
 	text-align: center;
-	font-family: 'Whitney A', 'Whitney B', Whitney HTF, Helvetica, Arial, sans-serif;
+	font-family: 'Whitney A', 'Whitney B', Helvetica, Arial, sans-serif;
 	font-weight: 600;
 	font-size: 1.8em;
 	line-height: 1.2em;
@@ -143,7 +143,7 @@ body#survey form{
 	padding-left: 20px;
 	padding-right: 20px;
 	text-align: center;
-	font-family: 'Whitney A', 'Whitney B', Whitney HTF, Helvetica, Arial, sans-serif;
+	font-family: 'Whitney A', 'Whitney B', Helvetica, Arial, sans-serif;
 	text-align: left;
 }
 
@@ -163,7 +163,7 @@ body#survey form input{
 	border-radius: 5px;
 	padding: 10px 0;
 	color: black;
-	font-family: 'Whitney A', 'Whitney B', Whitney HTF, Helvetica, Arial, sans-serif;
+	font-family: 'Whitney A', 'Whitney B', Helvetica, Arial, sans-serif;
 	font-weight: 600;
 	font-size: 1.5em;
 	text-decoration: none;
@@ -182,7 +182,7 @@ body#survey form input[type=submit]{
 	border-radius: 5px;
 	padding: 10px 0;
 	color: white;
-	font-family: 'Whitney A', 'Whitney B', Whitney HTF, Helvetica, Arial, sans-serif;
+	font-family: 'Whitney A', 'Whitney B', Helvetica, Arial, sans-serif;
 	font-weight: 600;
 	font-size: 1em;
 	text-decoration: none;

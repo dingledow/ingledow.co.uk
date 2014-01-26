@@ -33,7 +33,7 @@ $_SESSION['fantasiesnor'];
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7777472/762142/css/fonts.css" />
 </head>
 <body id="survey">
-	<div class="progress" style="width: 93.24%;"></div>
+	<div class="progress" style="width: 60%;"></div>
 <h2>
 	15
 </h2>

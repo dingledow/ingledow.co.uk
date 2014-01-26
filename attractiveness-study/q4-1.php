@@ -30,7 +30,7 @@ $(document).ready(function() {
 </script>
 </head>
 <body id="survey" class="sex">
-	<div class="progress" style="width: 26.64%;"></div>
+	<div class="progress" style="width: 20%;"></div>
 <h2>
 	5
 </h2>

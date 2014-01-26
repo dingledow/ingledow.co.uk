@@ -84,7 +84,7 @@ $(document).ready(function() {
 </head>
 
 <body id="survey" class="image">
-	<div class="progress" style="width: 100%;"></div>
+	<div class="progress" style="width: 96%;"></div>
 <h2>
 	24
 </h2>

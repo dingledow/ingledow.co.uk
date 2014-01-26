@@ -77,7 +77,7 @@ $(document).ready(function() {
 </head>
 
 <body id="survey" class="image">
-	<div class="progress" style="width: 100%;"></div>
+	<div class="progress" style="width: 68%;"></div>
 <h2>
 	17
 </h2>

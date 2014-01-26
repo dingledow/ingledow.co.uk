@@ -225,3 +225,18 @@ body#survey.image img{
 	margin-right: auto;
 	display: none;
 }
+
+body#survey.finished div.progress{
+	position: absolute;
+	background-color: #65c15b;
+	margin: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -100;
+}
+
+body#survey.finished{
+	color: white;
+}

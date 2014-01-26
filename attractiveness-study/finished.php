@@ -90,8 +90,8 @@ mysqli_close($con);
 <link rel="stylesheet" href="style.css" type="text/css" />
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7777472/762142/css/fonts.css" />
 </head>
-<body id="survey">
-	<div class="progress" style="width: 6.66%;"></div>
+<body id="survey" class="finished">
+	<div class="progress"></div>
 <h1>
 	Finished
 </h1>

@@ -3,9 +3,37 @@
 session_start();
 $_SESSION['image9'] = $_POST['image9'];
 
+$age = $_SESSION['age'];
+$ft_edu = $_SESSION['edu'];
+$orientation = $_SESSION['sex'];
+$sex_active = $_SESSION['sex_active'];
+$relationship = $_SESSION['relationship'];
+$relationship_type = $_SESSION['crtype'];
+$relationship_length = $_SESSION['rl'];
+$contraception = $_SESSION['contraception'];
+$no_partners = $_SESSION['partners'];
+$onenightstand = $_SESSION['partners2'];
+$casualpartners = $_SESSION['partners3'];
+$sexnolove = $_SESSION['sexnolove'];
+$like_casual_sex = $_SESSION['casual'];
+$nosexuntil_lt = $_SESSION['nosexuntilltr'];
+$fantasies_strangers = $_SESSION['fantasiesnor'];
+$arousal = $_SESSION['arousal'];
+$fantasies = $_SESSION['sponfant'];
+$image1 = $_SESSION['image1'];
+$image2 = $_SESSION['image2'];
+$image3 = $_SESSION['image3'];
+$image4 = $_SESSION['image4'];
+$image5 = $_SESSION['image5'];
+$image6 = $_SESSION['image6'];
+$image7 = $_SESSION['image7'];
+$image8 = $_SESSION['image8'];
+$image9 = $_SESSION['image9'];
+
 echo $_SESSION['age'];
 echo $_SESSION['edu'];
 echo $_SESSION['sex'];
+echo $_SESSION['sex_active'];
 echo $_SESSION['relationship'];
 echo $_SESSION['crtype'];
 echo $_SESSION['rl'];
@@ -39,7 +67,7 @@ if (mysqli_connect_errno())
 
 $sql="INSERT INTO survey (age, ft_edu, orientation, sex_active, relationship, relationship_type, relationship_length, contraception, no_partners, onenightstand, casualpartners, sexnolove, like_casual_sex, nosexuntil_lt, fantasies_strangers, arousal, fantasies, image1, image2, image3, image4, image5, image6, image7, image8, image9)
 VALUES
-('$_SESSION[age]', '$_SESSION[edu]', '$_SESSION[sex]', '$_SESSION[relationship]', '$_SESSION[crtype]', '$_SESSION[rl]', '$_SESSION[contraception]', '$_SESSION[partners]', '$_SESSION[partners2]', '$_SESSION[partners3]', '$_SESSION[sexnolove]', '$_SESSION[casual]', '$_SESSION[nosexuntilltr]', '$_SESSION[fantasiesnor]', '$_SESSION[arousal]', '$_SESSION[sponfant]', '$_SESSION[image1]', '$_SESSION[image2]', '$_SESSION[image3]', '$_SESSION[image4]', '$_SESSION[image5]', '$_SESSION[image6]', '$_SESSION[image7]', '$_SESSION[image8]', '$_SESSION[image9]')";
+('$age', '$ft_edu', '$orientation', '$sex_active', '$relationship', '$relationship_type', '$relationship_length', '$contraception', '$no_partners', '$onenightstand', '$casualpartners', '$sexnolove', '$like_casual_sex', '$nosexuntil_lt', '$fantasies_strangers', '$arousal', '$fantasies', '$image1', '$image2', '$image3', '$image4', '$image5', '$image6', '$image7', '$image8', '$image9')";
 
 if (!mysqli_query($con,$sql))
   {

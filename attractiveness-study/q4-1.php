@@ -1,8 +1,10 @@
 <?php session_start();
-$_SESSION['edu'] = $_POST['edu'];
+
+$_SESSION['sex'] = $_POST['sex'] . '' . $_POST['other_sex'];
 
 echo $_SESSION['age'];
 echo $_SESSION['edu'];
+echo $_SESSION['sex'];
 
 ?>
 
@@ -11,7 +13,7 @@ echo $_SESSION['edu'];
 <head>
 <meta name="generator" content="HTML Tidy for HTML5 (experimental) for Mac OS X https://github.com/w3c/tidy-html5/tree/c63cc39" />
 <meta charset="UTF-8" />
-<title>Attractiveness Study – What is your sexual orientation?</title>
+<title>Attractiveness Study – Are you currently sexually active or have been sexually active previously?</title>
 <meta name="description" content="" />
 <meta name="keywords" content="" />
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -30,17 +32,14 @@ $(document).ready(function() {
 <body id="survey" class="sex">
 	<div class="progress" style="width: 26.64%;"></div>
 <h2>
-	4
+	4.5
 </h2>
 <h1>
-	What is your sexual orientation?
+	Are you currently sexually active or have been sexually active previously?
 </h1>
-<form action="q4-1.php" method="POST">
-	<input type="radio" name="sex" value="hetero">Heterosexual<br>
-	<input type="radio" name="sex" value="bi">Bisexual<br>
-	<input type="radio" name="sex" value="homo">Homosexual<br>
-	<label for="other">Or, other</label>
-	<input id="other" name="other_sex" class="other" type="text"></input>
+<form action="q5.php" method="POST">
+	<input type="radio" name="sex_active" value="yes">Heterosexual<br>
+	<input type="radio" name="sex_active" value="no">Bisexual<br>
 	<input type="submit" value="Next">
 </form>
 </body>

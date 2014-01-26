@@ -4,6 +4,7 @@ $_SESSION['relationship'] = $_POST['relationship'];
 echo $_SESSION['age'];
 echo $_SESSION['edu'];
 echo $_SESSION['sex'];
+echo $_SESSION['sex_active'];
 echo $_SESSION['relationship'];
 
 ?>

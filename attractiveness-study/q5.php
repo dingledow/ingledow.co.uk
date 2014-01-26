@@ -1,10 +1,11 @@
 <?php session_start();
 
-$_SESSION['sex'] = $_POST['sex'] . '' . $_POST['other_sex'];
+$_SESSION['sex'] = $_POST['sex_active'];
 
 echo $_SESSION['age'];
 echo $_SESSION['edu'];
 echo $_SESSION['sex'];
+echo $_SESSION['sex_active'];
 
 ?>
 

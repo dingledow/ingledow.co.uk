@@ -4,6 +4,7 @@ $_SESSION['image5'] = $_POST['image5'];
 echo $_SESSION['age'];
 echo $_SESSION['edu'];
 echo $_SESSION['sex'];
+echo $_SESSION['sex_active'];
 echo $_SESSION['relationship'];
 echo $_SESSION['crtype'];
 echo $_SESSION['rl'];

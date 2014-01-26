@@ -89,9 +89,8 @@ $(document).ready(function() {
 	24
 </h2>
 <h1>
-Which image
+Please move the cursor to select the image you find most attractive.
 </h1>
-<p>Use the slider to pick...</p>
 <p>
 	<img class="image 1" src="image8/1.jpg" />
 	<img class="image 2" src="image8/2.jpg" />

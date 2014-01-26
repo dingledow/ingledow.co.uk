@@ -1,3 +1,13 @@
+<?php session_start();
+
+$_SESSION['sex'] = $_POST['sex'] . '' . $_POST['other_sex'];
+
+echo $_SESSION['age'];
+echo $_SESSION['edu'];
+echo $_SESSION['sex'];
+
+?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -36,7 +46,7 @@ $(document).ready(function() {
 <h1>
 	Are you in a relationship?
 </h1>
-<form action="">
+<form action="" method="POST">
 	<input type="radio" name="relationship" value="yes" class="yes">Yes<br>
 	<input type="radio" name="relationship" value="no" class="no">No
 	<input type="submit" value="Next">

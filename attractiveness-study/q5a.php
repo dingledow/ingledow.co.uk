@@ -1,3 +1,13 @@
+<?php session_start();
+$_SESSION['relationship'] = $_POST['relationship'];
+
+echo $_SESSION['age'];
+echo $_SESSION['edu'];
+echo $_SESSION['sex'];
+echo $_SESSION['relationship'];
+
+?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -29,7 +39,7 @@ $(document).ready(function() {
 <h1>
 	How long have you been involved in your current relationship?
 </h1>
-<form action="q6.php" method="POST">
+<form action="q5b.php" method="POST">
 	<input type="radio" name="cr" value="casual">Casual dating partner<br>
 	<input type="radio" name="cr" value="long-term">Long term boyfriend/girlfriend<br>
 	<input type="radio" name="cr" value="husband-wife">Husband/wife<br>

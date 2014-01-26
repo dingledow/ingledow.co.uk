@@ -1,3 +1,14 @@
+<?php session_start();
+$_SESSION['cr'] = $_POST['cr'];
+
+echo $_SESSION['age'];
+echo $_SESSION['edu'];
+echo $_SESSION['sex'];
+echo $_SESSION['relationship'];
+echo $_SESSION['cr'];
+
+?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -19,10 +30,10 @@
 	How long have you been involved in your current relationship?
 </h1>
 <form action="q6.php" method="POST">
-	<input type="radio" name="cr" value="less-than-6-weeks">Less than 6 weeks<br>
-	<input type="radio" name="cr" value="6weeks-6months">6 weeks – 6 months<br>
-	<input type="radio" name="cr" value="More than 6 months but less than one year">More than 6 months but less than one year<br>
-	<input type="radio" name="cr" value="More than one year">More than one year<br>
+	<input type="radio" name="rl" value="less-than-6-weeks">Less than 6 weeks<br>
+	<input type="radio" name="rl" value="6weeks-6months">6 weeks – 6 months<br>
+	<input type="radio" name="rl" value="More than 6 months but less than one year">More than 6 months but less than one year<br>
+	<input type="radio" name="rl" value="More than one year">More than one year<br>
 	<input type="submit" value="Next">
 </form>
 </body>

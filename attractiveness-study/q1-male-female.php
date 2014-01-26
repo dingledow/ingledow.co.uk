@@ -18,7 +18,7 @@
 	What is your gender?
 </h1>
 <p>
-	<a href="sorry-male.html" class="male">Male</a>
+	<a href="sorry-male.php" class="male">Male</a>
 	<a href="q2-age.php" class="female">Female</a>
 </p>
 </body>

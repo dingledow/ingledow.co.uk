@@ -34,17 +34,17 @@ $(document).ready(function() {
 <body id="survey" class="characterise-relationship">
 	<div class="progress" style="width: 33.33%;"></div>
 <h2>
-	5.2
+	5.1
 </h2>
 <h1>
-	How long have you been involved in your current relationship?
+	How would describe your current relationship?
 </h1>
 <form action="q5b.php" method="POST">
 	<input type="radio" name="cr" value="casual">Casual dating partner<br>
 	<input type="radio" name="cr" value="long-term">Long term boyfriend/girlfriend<br>
 	<input type="radio" name="cr" value="husband-wife">Husband/wife<br>
 	<label for="other">Or, other</label>
-	<input id="other" class="other" type="text"></input>
+	<input id="other" name="other_cr" class="other" type="text"></input>
 	<input type="submit" value="Next">
 </form>
 </body>

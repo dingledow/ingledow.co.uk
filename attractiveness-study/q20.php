@@ -1,4 +1,30 @@
-Ï<!DOCTYPE html>
+<?php session_start();
+$_SESSION['image4'] = $_POST['image4'];
+
+echo $_SESSION['age'];
+echo $_SESSION['edu'];
+echo $_SESSION['sex'];
+echo $_SESSION['relationship'];
+echo $_SESSION['crtype'];
+echo $_SESSION['rl'];
+echo $_SESSION['contraception'];
+echo $_SESSION['partners'];
+echo $_SESSION['partners2'];
+echo $_SESSION['partners3'];
+echo $_SESSION['sexnolove'];
+echo $_SESSION['casual'];
+echo $_SESSION['nosexuntilltr'];
+echo $_SESSION['fantasiesnor'];
+echo $_SESSION['arousal'];
+echo $_SESSION['sponfant'];
+echo $_SESSION['image1'];
+echo $_SESSION['image2'];
+echo $_SESSION['image3'];
+echo $_SESSION['image4'];
+
+?>
+
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="generator" content="HTML Tidy for HTML5 (experimental) for Mac OS X https://github.com/w3c/tidy-html5/tree/c63cc39" />
@@ -72,7 +98,7 @@ Which image
 	<img class="image 7" src="image5/7.jpg" />
 </p>
 <form action="q21.php" method="POST">
-	<input type="range" min="1" max="7" value="4" step="1" class="range"/>
+	<input type="range" min="1" max="7" value="4" step="1" name="image5" class="range"/>
 	<input type="submit" value="Next">
 </form>
 </body>

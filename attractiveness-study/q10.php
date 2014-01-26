@@ -1,3 +1,19 @@
+<?php session_start();
+$_SESSION['partners3'] = $_POST['partners3'];
+
+echo $_SESSION['age'];
+echo $_SESSION['edu'];
+echo $_SESSION['sex'];
+echo $_SESSION['relationship'];
+echo $_SESSION['crtype'];
+echo $_SESSION['rl'];
+echo $_SESSION['contraception'];
+echo $_SESSION['partners'];
+echo $_SESSION['partners2'];
+echo $_SESSION['partners3'];
+
+?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -22,15 +38,15 @@
 	<table>
 		<tr>
 			<td>Strongly disagree</td>
-			<td><input type="radio" name="agree" value="1">1</td>
-			<td><input type="radio" name="agree" value="2">2</td>
-			<td><input type="radio" name="agree" value="3">3</td>
-			<td><input type="radio" name="agree" value="4">4</td>
-			<td><input type="radio" name="agree" value="5">5</td>
-			<td><input type="radio" name="agree" value="6">6</td>
-			<td><input type="radio" name="agree" value="7">7</td>
-			<td><input type="radio" name="agree" value="8">8</td>
-			<td><input type="radio" name="agree" value="9">9</td>
+			<td><input type="radio" name="sexnolove" value="1">1</td>
+			<td><input type="radio" name="sexnolove" value="2">2</td>
+			<td><input type="radio" name="sexnolove" value="3">3</td>
+			<td><input type="radio" name="sexnolove" value="4">4</td>
+			<td><input type="radio" name="sexnolove" value="5">5</td>
+			<td><input type="radio" name="sexnolove" value="6">6</td>
+			<td><input type="radio" name="sexnolove" value="7">7</td>
+			<td><input type="radio" name="sexnolove" value="8">8</td>
+			<td><input type="radio" name="sexnolove" value="9">9</td>
 			<td>Strongly agree</td>
 		</tr>
 	</table>

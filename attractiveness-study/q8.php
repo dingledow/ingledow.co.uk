@@ -1,3 +1,17 @@
+<?php session_start();
+$_SESSION['partners'] = $_POST['partners'];
+
+echo $_SESSION['age'];
+echo $_SESSION['edu'];
+echo $_SESSION['sex'];
+echo $_SESSION['relationship'];
+echo $_SESSION['crtype'];
+echo $_SESSION['rl'];
+echo $_SESSION['contraception'];
+echo $_SESSION['partners'];
+
+?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -18,15 +32,15 @@
 	With how many different partners have you had sexual intercourse on one and only one occasion?
 </h1>
 <form action="q9.php" method="POST">
-	<input type="radio" name="partners" value="0">0<br>
-	<input type="radio" name="partners" value="1">1<br>
-	<input type="radio" name="partners" value="2">2<br>
-	<input type="radio" name="partners" value="3">3<br>
-	<input type="radio" name="partners" value="4">4<br>
-	<input type="radio" name="partners" value="5-6">5 – 6<br>
-	<input type="radio" name="partners" value="7-9">7 – 9<br>
-	<input type="radio" name="partners" value="10-19">10 – 19<br>
-	<input type="radio" name="partners" value="20plus">20 or more<br>
+	<input type="radio" name="partners2" value="0">0<br>
+	<input type="radio" name="partners2" value="1">1<br>
+	<input type="radio" name="partners2" value="2">2<br>
+	<input type="radio" name="partners2" value="3">3<br>
+	<input type="radio" name="partners2" value="4">4<br>
+	<input type="radio" name="partners2" value="5-6">5 – 6<br>
+	<input type="radio" name="partners2" value="7-9">7 – 9<br>
+	<input type="radio" name="partners2" value="10-19">10 – 19<br>
+	<input type="radio" name="partners2" value="20plus">20 or more<br>
 	<input type="submit" value="Next">
 </form>
 </body>

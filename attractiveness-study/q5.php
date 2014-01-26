@@ -26,10 +26,10 @@ $(document).ready(function() {
 
 	$('input:radio').change(function(){
 	    if ($(this).val() == 'yes') {
-	       $('form').attr("action", "q5a.html");
+	       $('form').attr("action", "q5a.php");
 	       console.log('yes');
 	    } else if ($(this).val() == 'no') {
-	    	$('form').attr("action", "q6.html");
+	    	$('form').attr("action", "q6.php");
 	    	console.log('no');
 	    }
 	});

@@ -1,3 +1,24 @@
+<?php session_start();
+$_SESSION['arousal'] = $_POST['arousal'];
+
+echo $_SESSION['age'];
+echo $_SESSION['edu'];
+echo $_SESSION['sex'];
+echo $_SESSION['relationship'];
+echo $_SESSION['crtype'];
+echo $_SESSION['rl'];
+echo $_SESSION['contraception'];
+echo $_SESSION['partners'];
+echo $_SESSION['partners2'];
+echo $_SESSION['partners3'];
+echo $_SESSION['sexnolove'];
+echo $_SESSION['casual'];
+echo $_SESSION['nosexuntilltr'];
+echo $_SESSION['fantasiesnor'];
+echo $_SESSION['arousal'];
+
+?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -19,15 +40,15 @@
 In everyday life, how often do you have spontaneous fantasies about having sex with someone you have just met?
 </h1>
 <form action="q16.php" method="POST">
-	<input type="radio" name="often" value="never">Never<br>
-	<input type="radio" name="often" value="very seldom">Very seldom<br>
-	<input type="radio" name="often" value="about once every two or three months">About once every two or three months<br>
-	<input type="radio" name="often" value="about once a month">About once a month<br>
-	<input type="radio" name="often" value="about once every two weeks">About once every two weeks<br>
-	<input type="radio" name="often" value="about once a week">About once a week<br>
-	<input type="radio" name="often" value="several times per week">Several times per week<br>
-	<input type="radio" name="often" value="nearly every day">Nearly every day<br>
-	<input type="radio" name="often" value="at least once a day">At least once a day<br>
+	<input type="radio" name="sponfant" value="never">Never<br>
+	<input type="radio" name="sponfant" value="very seldom">Very seldom<br>
+	<input type="radio" name="sponfant" value="about once every two or three months">About once every two or three months<br>
+	<input type="radio" name="sponfant" value="about once a month">About once a month<br>
+	<input type="radio" name="sponfant" value="about once every two weeks">About once every two weeks<br>
+	<input type="radio" name="sponfant" value="about once a week">About once a week<br>
+	<input type="radio" name="sponfant" value="several times per week">Several times per week<br>
+	<input type="radio" name="sponfant" value="nearly every day">Nearly every day<br>
+	<input type="radio" name="sponfant" value="at least once a day">At least once a day<br>
 	<input type="submit" value="Next">
 </form>
 </body>

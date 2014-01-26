@@ -30,7 +30,7 @@ $_SESSION['casual'];
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7777472/762142/css/fonts.css" />
 </head>
 <body id="survey" class="agree">
-	<div class="progress" style="width: 79.92%;"></div>
+	<div class="progress" style="width: 52%;"></div>
 <h2>
 	13
 </h2>

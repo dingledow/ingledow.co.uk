@@ -26,7 +26,7 @@ $_SESSION['partners2'];
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7777472/762142/css/fonts.css" />
 </head>
 <body id="survey">
-	<div class="progress" style="width: 59.94%;"></div>
+	<div class="progress" style="width: 40%;"></div>
 <h2>
 	10
 </h2>

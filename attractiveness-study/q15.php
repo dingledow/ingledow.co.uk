@@ -33,7 +33,7 @@ $_SESSION['arousal'];
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7777472/762142/css/fonts.css" />
 </head>
 <body id="survey">
-	<div class="progress" style="width: 100%;"></div>
+	<div class="progress" style="width: 64%;"></div>
 <h2>
 	16
 </h2>

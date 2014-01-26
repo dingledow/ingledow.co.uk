@@ -28,7 +28,7 @@ $(document).ready(function() {
 </script>
 </head>
 <body id="survey" class="sex">
-	<div class="progress" style="width: 26.64%;"></div>
+	<div class="progress" style="width: 16%;"></div>
 <h2>
 	4
 </h2>

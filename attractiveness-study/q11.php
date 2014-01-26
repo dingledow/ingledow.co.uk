@@ -29,7 +29,7 @@ $_SESSION['sexnolove'];
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7777472/762142/css/fonts.css" />
 </head>
 <body id="survey" class="agree">
-	<div class="progress" style="width: 73.26%;"></div>
+	<div class="progress" style="width: 48%;"></div>
 <h2>
 	12
 </h2>

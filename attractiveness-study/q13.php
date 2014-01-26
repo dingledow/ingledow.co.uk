@@ -31,7 +31,7 @@ $_SESSION['nosexuntilltr'];
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7777472/762142/css/fonts.css" />
 </head>
 <body id="survey">
-	<div class="progress" style="width: 86.58%;"></div>
+	<div class="progress" style="width: 56%;"></div>
 <h2>
 	14
 </h2>

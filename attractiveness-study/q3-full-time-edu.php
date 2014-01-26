@@ -18,7 +18,7 @@ $_SESSION['age'];
 </head>
 <body id="survey" class="ft-edu">
 
-<div class="progress" style="width: 20%;"></div>
+<div class="progress" style="width: 12%;"></div>
 <h2>
 	3
 </h2>

@@ -10,7 +10,7 @@
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7777472/762142/css/fonts.css" />
 </head>
 <body id="survey" class="age">
-	<div class="progress" style="width: 13.32%;"></div>
+	<div class="progress" style="width: 8%;"></div>
 <h2>
 	2
 </h2>

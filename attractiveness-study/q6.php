@@ -23,7 +23,7 @@ $_SESSION['rl'];
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7777472/762142/css/fonts.css" />
 </head>
 <body id="survey">
-	<div class="progress" style="width: 40%;"></div>
+	<div class="progress" style="width: 28%;"></div>
 <h2>
 	7
 </h2>

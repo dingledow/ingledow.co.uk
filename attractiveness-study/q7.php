@@ -24,7 +24,7 @@ $_SESSION['contraception'];
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7777472/762142/css/fonts.css" />
 </head>
 <body id="survey">
-	<div class="progress" style="width: 46.62%;"></div>
+	<div class="progress" style="width: 32%;"></div>
 <h2>
 	8
 </h2>

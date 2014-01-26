@@ -37,9 +37,9 @@ if (mysqli_connect_errno())
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   }
 
-$sql="INSERT INTO survey (age)
+$sql="INSERT INTO survey (age, ft_edu, orientation, sex_active, relationship, relationship_type, relationship_length, contraception, no_partners, onenightstand, casualpartners, sexnolove, like_casual_sex, nosexuntil_lt, fantasies_strangers, arousal, fantasies, image1, image2, image3, image4, image5, image6, image7, image8, image9)
 VALUES
-('$_SESSION[age]')";
+('$_SESSION[age]', '$_SESSION[edu]', '$_SESSION[sex]', '$_SESSION[relationship]', '$_SESSION[crtype]', '$_SESSION[rl]', '$_SESSION[contraception]', '$_SESSION[partners]', '$_SESSION[partners2]', '$_SESSION[partners3]', '$_SESSION[sexnolove]', '$_SESSION[casual]', '$_SESSION[nosexuntilltr]', '$_SESSION[fantasiesnor]', '$_SESSION[arousal]', '$_SESSION[sponfant]', '$_SESSION[image1]', '$_SESSION[image2]', '$_SESSION[image3]', '$_SESSION[image4]', '$_SESSION[image5]', '$_SESSION[image6]', '$_SESSION[image7]', '$_SESSION[image8]', '$_SESSION[image9]')";
 
 if (!mysqli_query($con,$sql))
   {

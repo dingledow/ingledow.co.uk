@@ -77,5 +77,7 @@ echo "1 record added";
 
 echo "FINISHED!";
 
+session_destroy();
+
 mysqli_close($con);
 ?>

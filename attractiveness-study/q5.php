@@ -1,6 +1,6 @@
 <?php session_start();
 
-$_SESSION['sex'] = $_POST['sex_active'];
+$_SESSION['sex_active'] = $_POST['sex_active'];
 
 echo $_SESSION['age'];
 echo $_SESSION['edu'];

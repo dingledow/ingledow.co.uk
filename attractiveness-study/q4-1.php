@@ -38,8 +38,8 @@ $(document).ready(function() {
 	Are you currently sexually active or have been sexually active previously?
 </h1>
 <form action="q5.php" method="POST">
-	<input type="radio" name="sex_active" value="yes">Heterosexual<br>
-	<input type="radio" name="sex_active" value="no">Bisexual<br>
+	<input type="radio" name="sex_active" value="yes">Yes<br>
+	<input type="radio" name="sex_active" value="no">No<br>
 	<input type="submit" value="Next">
 </form>
 </body>

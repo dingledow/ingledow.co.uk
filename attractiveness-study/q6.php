@@ -1,3 +1,15 @@
+<?php session_start();
+$_SESSION['rl'] = $_POST['rl'];
+
+echo $_SESSION['age'];
+echo $_SESSION['edu'];
+echo $_SESSION['sex'];
+echo $_SESSION['relationship'];
+echo $_SESSION['crtype'];
+echo $_SESSION['rl'];
+
+?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -18,7 +30,7 @@
 	Are you taking any form of hormonal contraception? 
 </h1>
 <p>E.g. contraceptive pill, injection, implant etc.</p>
-<form action="q7.html">
+<form action="q7.php" method="POST">
 	<input type="radio" name="contraception" value="yes" class="yes">Yes<br>
 	<input type="radio" name="contraception" value="no" class="no">No
 	<input type="submit" value="Next">

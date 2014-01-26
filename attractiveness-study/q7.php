@@ -1,3 +1,16 @@
+<?php session_start();
+$_SESSION['contraception'] = $_POST['contraception'];
+
+echo $_SESSION['age'];
+echo $_SESSION['edu'];
+echo $_SESSION['sex'];
+echo $_SESSION['relationship'];
+echo $_SESSION['crtype'];
+echo $_SESSION['rl'];
+echo $_SESSION['contraception'];
+
+?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -17,7 +30,7 @@
 <h1>
 	With how many different partners have you had sex within the past 12 months?
 </h1>
-<form action="q8.html">
+<form action="q8.php" method="POST">
 	<input type="radio" name="partners" value="0">0<br>
 	<input type="radio" name="partners" value="1">1<br>
 	<input type="radio" name="partners" value="2">2<br>

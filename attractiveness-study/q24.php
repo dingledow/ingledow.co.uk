@@ -1,3 +1,33 @@
+<?php session_start();
+$_SESSION['image8'] = $_POST['image8'];
+
+echo $_SESSION['age'];
+echo $_SESSION['edu'];
+echo $_SESSION['sex'];
+echo $_SESSION['relationship'];
+echo $_SESSION['crtype'];
+echo $_SESSION['rl'];
+echo $_SESSION['contraception'];
+echo $_SESSION['partners'];
+echo $_SESSION['partners2'];
+echo $_SESSION['partners3'];
+echo $_SESSION['sexnolove'];
+echo $_SESSION['casual'];
+echo $_SESSION['nosexuntilltr'];
+echo $_SESSION['fantasiesnor'];
+echo $_SESSION['arousal'];
+echo $_SESSION['sponfant'];
+echo $_SESSION['image1'];
+echo $_SESSION['image2'];
+echo $_SESSION['image3'];
+echo $_SESSION['image4'];
+echo $_SESSION['image5'];
+echo $_SESSION['image6'];
+echo $_SESSION['image7'];
+echo $_SESSION['image8'];
+
+?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -71,8 +101,8 @@ Which image
 	<img class="image 6" src="image9/6.jpg" />
 	<img class="image 7" src="image9/7.jpg" />
 </p>
-<form action="finished.html">
-	<input type="range" min="1" max="7" value="4" step="1" class="range"/>
+<form action="finished.php" method="POST">
+	<input type="range" min="1" max="7" value="4" step="1" name="image9" class="range"/>
 	<input type="submit" value="Next">
 </form>
 </body>

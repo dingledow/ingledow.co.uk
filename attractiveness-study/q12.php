@@ -1,3 +1,21 @@
+<?php session_start();
+$_SESSION['casual'] = $_POST['casual'];
+
+echo $_SESSION['age'];
+echo $_SESSION['edu'];
+echo $_SESSION['sex'];
+echo $_SESSION['relationship'];
+echo $_SESSION['crtype'];
+echo $_SESSION['rl'];
+echo $_SESSION['contraception'];
+echo $_SESSION['partners'];
+echo $_SESSION['partners2'];
+echo $_SESSION['partners3'];
+echo $_SESSION['sexnolove'];
+echo $_SESSION['casual'];
+
+?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -18,19 +36,19 @@
 <h1>
 	I do not want to have sex with a person until I am sure that we will have a long-term, serious relationship.
 </h1>
-<form action="q13.html">
+<form action="q13.php" method="POST">
 	<table>
 		<tr>
 			<td>Strongly disagree</td>
-			<td><input type="radio" name="agree" value="1">1</td>
-			<td><input type="radio" name="agree" value="2">2</td>
-			<td><input type="radio" name="agree" value="3">3</td>
-			<td><input type="radio" name="agree" value="4">4</td>
-			<td><input type="radio" name="agree" value="5">5</td>
-			<td><input type="radio" name="agree" value="6">6</td>
-			<td><input type="radio" name="agree" value="7">7</td>
-			<td><input type="radio" name="agree" value="8">8</td>
-			<td><input type="radio" name="agree" value="9">9</td>
+			<td><input type="radio" name="nosexuntilltr" value="1">1</td>
+			<td><input type="radio" name="nosexuntilltr" value="2">2</td>
+			<td><input type="radio" name="nosexuntilltr" value="3">3</td>
+			<td><input type="radio" name="nosexuntilltr" value="4">4</td>
+			<td><input type="radio" name="nosexuntilltr" value="5">5</td>
+			<td><input type="radio" name="nosexuntilltr" value="6">6</td>
+			<td><input type="radio" name="nosexuntilltr" value="7">7</td>
+			<td><input type="radio" name="nosexuntilltr" value="8">8</td>
+			<td><input type="radio" name="nosexuntilltr" value="9">9</td>
 			<td>Strongly agree</td>
 		</tr>
 	</table>

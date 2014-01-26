@@ -1,3 +1,26 @@
+<?php session_start();
+$_SESSION['image1'] = $_POST['image1'];
+
+echo $_SESSION['age'];
+echo $_SESSION['edu'];
+echo $_SESSION['sex'];
+echo $_SESSION['relationship'];
+echo $_SESSION['crtype'];
+echo $_SESSION['rl'];
+echo $_SESSION['contraception'];
+echo $_SESSION['partners'];
+echo $_SESSION['partners2'];
+echo $_SESSION['partners3'];
+echo $_SESSION['sexnolove'];
+echo $_SESSION['casual'];
+echo $_SESSION['nosexuntilltr'];
+echo $_SESSION['fantasiesnor'];
+echo $_SESSION['arousal'];
+echo $_SESSION['sponfant'];
+echo $_SESSION['image1'];
+
+?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -71,8 +94,8 @@ Which image
 	<img class="image 6" src="image2/6.jpg" />
 	<img class="image 7" src="image2/7.jpg" />
 </p>
-<form action="q18.html">
-	<input type="range" min="1" max="7" value="4" step="1" class="range"/>
+<form action="q18.php" method="POST">
+	<input type="range" min="1" max="7" value="4" step="1" name="image2" class="range"/>
 	<input type="submit" value="Next">
 </form>
 </body>

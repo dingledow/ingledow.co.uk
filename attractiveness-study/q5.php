@@ -1,3 +1,13 @@
+<?php session_start();
+
+$_SESSION['sex'] = $_POST['sex'] . '' . $_POST['other_sex'];
+
+echo $_SESSION['age'];
+echo $_SESSION['edu'];
+echo $_SESSION['sex'];
+
+?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -16,10 +26,10 @@ $(document).ready(function() {
 
 	$('input:radio').change(function(){
 	    if ($(this).val() == 'yes') {
-	       $('form').attr("action", "q5a.html");
+	       $('form').attr("action", "q5a.php");
 	       console.log('yes');
 	    } else if ($(this).val() == 'no') {
-	    	$('form').attr("action", "q6.html");
+	    	$('form').attr("action", "q6.php");
 	    	console.log('no');
 	    }
 	});
@@ -36,7 +46,7 @@ $(document).ready(function() {
 <h1>
 	Are you in a relationship?
 </h1>
-<form action="">
+<form action="" method="POST">
 	<input type="radio" name="relationship" value="yes" class="yes">Yes<br>
 	<input type="radio" name="relationship" value="no" class="no">No
 	<input type="submit" value="Next">

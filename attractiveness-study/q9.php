@@ -1,16 +1,16 @@
 <?php session_start();
 $_SESSION['partners2'] = $_POST['partners2'];
 
-echo $_SESSION['age'];
-echo $_SESSION['edu'];
-echo $_SESSION['sex'];
-echo $_SESSION['sex_active'];
-echo $_SESSION['relationship'];
-echo $_SESSION['crtype'];
-echo $_SESSION['rl'];
-echo $_SESSION['contraception'];
-echo $_SESSION['partners'];
-echo $_SESSION['partners2'];
+$_SESSION['age'];
+$_SESSION['edu'];
+$_SESSION['sex'];
+$_SESSION['sex_active'];
+$_SESSION['relationship'];
+$_SESSION['crtype'];
+$_SESSION['rl'];
+$_SESSION['contraception'];
+$_SESSION['partners'];
+$_SESSION['partners2'];
 
 ?>
 
@@ -28,7 +28,7 @@ echo $_SESSION['partners2'];
 <body id="survey">
 	<div class="progress" style="width: 59.94%;"></div>
 <h2>
-	9
+	10
 </h2>
 <h1>
 	With how many different partners have you had sexual intercourse without having an interest in a long-term committed relationship with this person?

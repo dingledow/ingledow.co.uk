@@ -2,12 +2,12 @@
 
 $_SESSION['crtype'] = $_POST['cr'] . '' . $_POST['other_cr'];
 
-echo $_SESSION['age'];
-echo $_SESSION['edu'];
-echo $_SESSION['sex'];
-echo $_SESSION['sex_active'];
-echo $_SESSION['relationship'];
-echo $_SESSION['crtype'];
+$_SESSION['age'];
+$_SESSION['edu'];
+$_SESSION['sex'];
+$_SESSION['sex_active'];
+$_SESSION['relationship'];
+$_SESSION['crtype'];
 
 ?>
 
@@ -26,7 +26,7 @@ echo $_SESSION['crtype'];
 <body id="survey" class="characterise-relationship">
 	<div class="progress" style="width: 33.33%;"></div>
 <h2>
-	5.2
+	6.2
 </h2>
 <h1>
 	How long have you been involved in your current relationship?

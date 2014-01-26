@@ -1,20 +1,20 @@
 <?php session_start();
 $_SESSION['nosexuntilltr'] = $_POST['nosexuntilltr'];
 
-echo $_SESSION['age'];
-echo $_SESSION['edu'];
-echo $_SESSION['sex'];
-echo $_SESSION['sex_active'];
-echo $_SESSION['relationship'];
-echo $_SESSION['crtype'];
-echo $_SESSION['rl'];
-echo $_SESSION['contraception'];
-echo $_SESSION['partners'];
-echo $_SESSION['partners2'];
-echo $_SESSION['partners3'];
-echo $_SESSION['sexnolove'];
-echo $_SESSION['casual'];
-echo $_SESSION['nosexuntilltr'];
+$_SESSION['age'];
+$_SESSION['edu'];
+$_SESSION['sex'];
+$_SESSION['sex_active'];
+$_SESSION['relationship'];
+$_SESSION['crtype'];
+$_SESSION['rl'];
+$_SESSION['contraception'];
+$_SESSION['partners'];
+$_SESSION['partners2'];
+$_SESSION['partners3'];
+$_SESSION['sexnolove'];
+$_SESSION['casual'];
+$_SESSION['nosexuntilltr'];
 
 ?>
 
@@ -33,7 +33,7 @@ echo $_SESSION['nosexuntilltr'];
 <body id="survey">
 	<div class="progress" style="width: 86.58%;"></div>
 <h2>
-	13
+	14
 </h2>
 <h1>
 How often do you have fantasies about having sex with someone you are not in a committed romantic relationship with?

@@ -1,14 +1,14 @@
 <?php session_start();
 $_SESSION['contraception'] = $_POST['contraception'];
 
-echo $_SESSION['age'];
-echo $_SESSION['edu'];
-echo $_SESSION['sex'];
-echo $_SESSION['sex_active'];
-echo $_SESSION['relationship'];
-echo $_SESSION['crtype'];
-echo $_SESSION['rl'];
-echo $_SESSION['contraception'];
+$_SESSION['age'];
+$_SESSION['edu'];
+$_SESSION['sex'];
+$_SESSION['sex_active'];
+$_SESSION['relationship'];
+$_SESSION['crtype'];
+$_SESSION['rl'];
+$_SESSION['contraception'];
 
 ?>
 
@@ -26,7 +26,7 @@ echo $_SESSION['contraception'];
 <body id="survey">
 	<div class="progress" style="width: 46.62%;"></div>
 <h2>
-	7
+	8
 </h2>
 <h1>
 	With how many different partners have you had sex within the past 12 months?

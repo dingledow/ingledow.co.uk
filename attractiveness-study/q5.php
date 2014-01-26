@@ -2,10 +2,10 @@
 
 $_SESSION['sex_active'] = $_POST['sex_active'];
 
-echo $_SESSION['age'];
-echo $_SESSION['edu'];
-echo $_SESSION['sex'];
-echo $_SESSION['sex_active'];
+$_SESSION['age'];
+$_SESSION['edu'];
+$_SESSION['sex'];
+$_SESSION['sex_active'];
 
 ?>
 
@@ -42,7 +42,7 @@ $(document).ready(function() {
 <body id="survey" class="relationship">
 	<div class="progress" style="width: 33.33%;"></div>
 <h2>
-	5
+	6
 </h2>
 <h1>
 	Are you in a relationship?

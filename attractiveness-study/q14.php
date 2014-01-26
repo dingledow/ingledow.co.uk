@@ -1,21 +1,21 @@
 <?php session_start();
 $_SESSION['fantasiesnor'] = $_POST['fantasiesnor'];
 
-echo $_SESSION['age'];
-echo $_SESSION['edu'];
-echo $_SESSION['sex'];
-echo $_SESSION['sex_active'];
-echo $_SESSION['relationship'];
-echo $_SESSION['crtype'];
-echo $_SESSION['rl'];
-echo $_SESSION['contraception'];
-echo $_SESSION['partners'];
-echo $_SESSION['partners2'];
-echo $_SESSION['partners3'];
-echo $_SESSION['sexnolove'];
-echo $_SESSION['casual'];
-echo $_SESSION['nosexuntilltr'];
-echo $_SESSION['fantasiesnor'];
+$_SESSION['age'];
+$_SESSION['edu'];
+$_SESSION['sex'];
+$_SESSION['sex_active'];
+$_SESSION['relationship'];
+$_SESSION['crtype'];
+$_SESSION['rl'];
+$_SESSION['contraception'];
+$_SESSION['partners'];
+$_SESSION['partners2'];
+$_SESSION['partners3'];
+$_SESSION['sexnolove'];
+$_SESSION['casual'];
+$_SESSION['nosexuntilltr'];
+$_SESSION['fantasiesnor'];
 
 ?>
 
@@ -35,7 +35,7 @@ echo $_SESSION['fantasiesnor'];
 <body id="survey">
 	<div class="progress" style="width: 93.24%;"></div>
 <h2>
-	14
+	15
 </h2>
 <h1>
 How often do you experience sexual arousal when you are in contact with someone you are not in a committed romantic relationship with?

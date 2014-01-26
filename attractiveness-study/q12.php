@@ -1,19 +1,19 @@
 <?php session_start();
 $_SESSION['casual'] = $_POST['casual'];
 
-echo $_SESSION['age'];
-echo $_SESSION['edu'];
-echo $_SESSION['sex'];
-echo $_SESSION['sex_active'];
-echo $_SESSION['relationship'];
-echo $_SESSION['crtype'];
-echo $_SESSION['rl'];
-echo $_SESSION['contraception'];
-echo $_SESSION['partners'];
-echo $_SESSION['partners2'];
-echo $_SESSION['partners3'];
-echo $_SESSION['sexnolove'];
-echo $_SESSION['casual'];
+$_SESSION['age'];
+$_SESSION['edu'];
+$_SESSION['sex'];
+$_SESSION['sex_active'];
+$_SESSION['relationship'];
+$_SESSION['crtype'];
+$_SESSION['rl'];
+$_SESSION['contraception'];
+$_SESSION['partners'];
+$_SESSION['partners2'];
+$_SESSION['partners3'];
+$_SESSION['sexnolove'];
+$_SESSION['casual'];
 
 ?>
 
@@ -32,7 +32,7 @@ echo $_SESSION['casual'];
 <body id="survey" class="agree">
 	<div class="progress" style="width: 79.92%;"></div>
 <h2>
-	12
+	13
 </h2>
 <h1>
 	I do not want to have sex with a person until I am sure that we will have a long-term, serious relationship.

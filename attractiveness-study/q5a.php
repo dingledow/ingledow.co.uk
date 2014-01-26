@@ -1,11 +1,11 @@
 <?php session_start();
 $_SESSION['relationship'] = $_POST['relationship'];
 
-echo $_SESSION['age'];
-echo $_SESSION['edu'];
-echo $_SESSION['sex'];
-echo $_SESSION['sex_active'];
-echo $_SESSION['relationship'];
+$_SESSION['age'];
+$_SESSION['edu'];
+$_SESSION['sex'];
+$_SESSION['sex_active'];
+$_SESSION['relationship'];
 
 ?>
 
@@ -35,7 +35,7 @@ $(document).ready(function() {
 <body id="survey" class="characterise-relationship">
 	<div class="progress" style="width: 33.33%;"></div>
 <h2>
-	5.1
+	6.1
 </h2>
 <h1>
 	How would describe your current relationship?

@@ -1,13 +1,13 @@
 <?php session_start();
 $_SESSION['rl'] = $_POST['rl'];
 
-echo $_SESSION['age'];
-echo $_SESSION['edu'];
-echo $_SESSION['sex'];
-echo $_SESSION['sex_active'];
-echo $_SESSION['relationship'];
-echo $_SESSION['crtype'];
-echo $_SESSION['rl'];
+$_SESSION['age'];
+$_SESSION['edu'];
+$_SESSION['sex'];
+$_SESSION['sex_active'];
+$_SESSION['relationship'];
+$_SESSION['crtype'];
+$_SESSION['rl'];
 
 ?>
 
@@ -25,7 +25,7 @@ echo $_SESSION['rl'];
 <body id="survey">
 	<div class="progress" style="width: 40%;"></div>
 <h2>
-	6
+	7
 </h2>
 <h1>
 	Are you taking any form of hormonal contraception? 

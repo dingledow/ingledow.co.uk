@@ -1,8 +1,8 @@
 <?php session_start();
 $_SESSION['edu'] = $_POST['edu'];
 
-echo $_SESSION['age'];
-echo $_SESSION['edu'];
+$_SESSION['age'];
+$_SESSION['edu'];
 
 ?>
 

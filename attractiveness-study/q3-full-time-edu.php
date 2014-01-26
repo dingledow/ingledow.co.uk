@@ -1,7 +1,7 @@
 <?php session_start();
 $_SESSION['age'] = $_POST['age'];
 
-echo $_SESSION['age'];
+$_SESSION['age'];
 
 ?>
 

@@ -30,32 +30,32 @@ $image7 = $_SESSION['image7'];
 $image8 = $_SESSION['image8'];
 $image9 = $_SESSION['image9'];
 
-echo $_SESSION['age'];
-echo $_SESSION['edu'];
-echo $_SESSION['sex'];
-echo $_SESSION['sex_active'];
-echo $_SESSION['relationship'];
-echo $_SESSION['crtype'];
-echo $_SESSION['rl'];
-echo $_SESSION['contraception'];
-echo $_SESSION['partners'];
-echo $_SESSION['partners2'];
-echo $_SESSION['partners3'];
-echo $_SESSION['sexnolove'];
-echo $_SESSION['casual'];
-echo $_SESSION['nosexuntilltr'];
-echo $_SESSION['fantasiesnor'];
-echo $_SESSION['arousal'];
-echo $_SESSION['sponfant'];
-echo $_SESSION['image1'];
-echo $_SESSION['image2'];
-echo $_SESSION['image3'];
-echo $_SESSION['image4'];
-echo $_SESSION['image5'];
-echo $_SESSION['image6'];
-echo $_SESSION['image7'];
-echo $_SESSION['image8'];
-echo $_SESSION['image9'];
+$_SESSION['age'];
+$_SESSION['edu'];
+$_SESSION['sex'];
+$_SESSION['sex_active'];
+$_SESSION['relationship'];
+$_SESSION['crtype'];
+$_SESSION['rl'];
+$_SESSION['contraception'];
+$_SESSION['partners'];
+$_SESSION['partners2'];
+$_SESSION['partners3'];
+$_SESSION['sexnolove'];
+$_SESSION['casual'];
+$_SESSION['nosexuntilltr'];
+$_SESSION['fantasiesnor'];
+$_SESSION['arousal'];
+$_SESSION['sponfant'];
+$_SESSION['image1'];
+$_SESSION['image2'];
+$_SESSION['image3'];
+$_SESSION['image4'];
+$_SESSION['image5'];
+$_SESSION['image6'];
+$_SESSION['image7'];
+$_SESSION['image8'];
+$_SESSION['image9'];
 
 
 $con=mysqli_connect("localhost","alex","reejavlea","alex");
@@ -73,11 +73,30 @@ if (!mysqli_query($con,$sql))
   {
   die('Error: ' . mysqli_error($con));
   }
-echo "1 record added";
-
-echo "FINISHED!";
 
 session_destroy();
 
 mysqli_close($con);
 ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator" content="HTML Tidy for HTML5 (experimental) for Mac OS X https://github.com/w3c/tidy-html5/tree/c63cc39" />
+<meta charset="UTF-8" />
+<title>Attractiveness Study – Finished</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="//cloud.typography.com/7777472/762142/css/fonts.css" />
+</head>
+<body id="survey">
+	<div class="progress" style="width: 6.66%;"></div>
+<h1>
+	Finished
+</h1>
+<p>
+	Thank you for completing the survey!
+</p>
+</body>
+</html>

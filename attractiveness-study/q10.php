@@ -1,17 +1,17 @@
 <?php session_start();
 $_SESSION['partners3'] = $_POST['partners3'];
 
-echo $_SESSION['age'];
-echo $_SESSION['edu'];
-echo $_SESSION['sex'];
-echo $_SESSION['sex_active'];
-echo $_SESSION['relationship'];
-echo $_SESSION['crtype'];
-echo $_SESSION['rl'];
-echo $_SESSION['contraception'];
-echo $_SESSION['partners'];
-echo $_SESSION['partners2'];
-echo $_SESSION['partners3'];
+$_SESSION['age'];
+$_SESSION['edu'];
+$_SESSION['sex'];
+$_SESSION['sex_active'];
+$_SESSION['relationship'];
+$_SESSION['crtype'];
+$_SESSION['rl'];
+$_SESSION['contraception'];
+$_SESSION['partners'];
+$_SESSION['partners2'];
+$_SESSION['partners3'];
 
 ?>
 
@@ -30,7 +30,7 @@ echo $_SESSION['partners3'];
 <body id="survey" class="agree">
 	<div class="progress" style="width: 66.66%;"></div>
 <h2>
-	10
+	11
 </h2>
 <h1>
 	Sex without love is OK?

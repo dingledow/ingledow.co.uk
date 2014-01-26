@@ -1,29 +1,29 @@
 <?php session_start();
 $_SESSION['image6'] = $_POST['image6'];
 
-echo $_SESSION['age'];
-echo $_SESSION['edu'];
-echo $_SESSION['sex'];
-echo $_SESSION['sex_active'];
-echo $_SESSION['relationship'];
-echo $_SESSION['crtype'];
-echo $_SESSION['rl'];
-echo $_SESSION['contraception'];
-echo $_SESSION['partners'];
-echo $_SESSION['partners2'];
-echo $_SESSION['partners3'];
-echo $_SESSION['sexnolove'];
-echo $_SESSION['casual'];
-echo $_SESSION['nosexuntilltr'];
-echo $_SESSION['fantasiesnor'];
-echo $_SESSION['arousal'];
-echo $_SESSION['sponfant'];
-echo $_SESSION['image1'];
-echo $_SESSION['image2'];
-echo $_SESSION['image3'];
-echo $_SESSION['image4'];
-echo $_SESSION['image5'];
-echo $_SESSION['image6'];
+$_SESSION['age'];
+$_SESSION['edu'];
+$_SESSION['sex'];
+$_SESSION['sex_active'];
+$_SESSION['relationship'];
+$_SESSION['crtype'];
+$_SESSION['rl'];
+$_SESSION['contraception'];
+$_SESSION['partners'];
+$_SESSION['partners2'];
+$_SESSION['partners3'];
+$_SESSION['sexnolove'];
+$_SESSION['casual'];
+$_SESSION['nosexuntilltr'];
+$_SESSION['fantasiesnor'];
+$_SESSION['arousal'];
+$_SESSION['sponfant'];
+$_SESSION['image1'];
+$_SESSION['image2'];
+$_SESSION['image3'];
+$_SESSION['image4'];
+$_SESSION['image5'];
+$_SESSION['image6'];
 
 ?>
 
@@ -85,7 +85,7 @@ $(document).ready(function() {
 <body id="survey" class="image">
 	<div class="progress" style="width: 100%;"></div>
 <h2>
-	22
+	23
 </h2>
 <h1>
 Which image

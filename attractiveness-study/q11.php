@@ -1,18 +1,18 @@
 <?php session_start();
 $_SESSION['sexnolove'] = $_POST['sexnolove'];
 
-echo $_SESSION['age'];
-echo $_SESSION['edu'];
-echo $_SESSION['sex'];
-echo $_SESSION['sex_active'];
-echo $_SESSION['relationship'];
-echo $_SESSION['crtype'];
-echo $_SESSION['rl'];
-echo $_SESSION['contraception'];
-echo $_SESSION['partners'];
-echo $_SESSION['partners2'];
-echo $_SESSION['partners3'];
-echo $_SESSION['sexnolove'];
+$_SESSION['age'];
+$_SESSION['edu'];
+$_SESSION['sex'];
+$_SESSION['sex_active'];
+$_SESSION['relationship'];
+$_SESSION['crtype'];
+$_SESSION['rl'];
+$_SESSION['contraception'];
+$_SESSION['partners'];
+$_SESSION['partners2'];
+$_SESSION['partners3'];
+$_SESSION['sexnolove'];
 
 ?>
 
@@ -31,7 +31,7 @@ echo $_SESSION['sexnolove'];
 <body id="survey" class="agree">
 	<div class="progress" style="width: 73.26%;"></div>
 <h2>
-	11
+	12
 </h2>
 <h1>
 	I can imagine myself being comfortable and enjoying "casual" sex with different partners.

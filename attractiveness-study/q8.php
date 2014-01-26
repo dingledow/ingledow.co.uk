@@ -1,15 +1,15 @@
 <?php session_start();
 $_SESSION['partners'] = $_POST['partners'];
 
-echo $_SESSION['age'];
-echo $_SESSION['edu'];
-echo $_SESSION['sex'];
-echo $_SESSION['sex_active'];
-echo $_SESSION['relationship'];
-echo $_SESSION['crtype'];
-echo $_SESSION['rl'];
-echo $_SESSION['contraception'];
-echo $_SESSION['partners'];
+$_SESSION['age'];
+$_SESSION['edu'];
+$_SESSION['sex'];
+$_SESSION['sex_active'];
+$_SESSION['relationship'];
+$_SESSION['crtype'];
+$_SESSION['rl'];
+$_SESSION['contraception'];
+$_SESSION['partners'];
 
 ?>
 
@@ -27,7 +27,7 @@ echo $_SESSION['partners'];
 <body id="survey">
 	<div class="progress" style="width: 53.28%;"></div>
 <h2>
-	8
+	9
 </h2>
 <h1>
 	With how many different partners have you had sexual intercourse on one and only one occasion?

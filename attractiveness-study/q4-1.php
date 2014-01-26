@@ -32,7 +32,7 @@ $(document).ready(function() {
 <body id="survey" class="sex">
 	<div class="progress" style="width: 26.64%;"></div>
 <h2>
-	4
+	4.5
 </h2>
 <h1>
 	Are you currently sexually active or have been sexually active previously?

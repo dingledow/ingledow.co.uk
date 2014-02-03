@@ -53,10 +53,10 @@ $_SESSION['image8'];
       max: 7,
       step: 1,
       slide: function( event, ui ) {
-        $( "#amount" ).val( "$" + ui.value );
+        $( "#amount" ).val( ui.value );
       }
     });
-    var rangevalue = $( "#amount" ).val($( "#slider" ).slider( "value" ) );
+    var rangevalue = $( "#amount" ).val( ui.value );
     console.log(rangevalue);
 
         if (rangevalue == 1) {

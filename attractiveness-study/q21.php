@@ -42,18 +42,11 @@ $_SESSION['image5'];
         type="text/javascript"></script>
 <script>
 $(document).ready(function() {
-
-	$( "#slider" ).slider({
-      value:4,
-      min: 1,
-      max: 7,
-      step: 1,
-      slide: function( event, ui ) {
-        $( "#amount" ).val( ui.value );
-        var rangevalue = $( "#amount" ).val();
-        console.log(rangevalue);
-
-        if (rangevalue == 1) {
+	$("img.4").css("display","inline");
+	$(".range").change(function () {
+		var rangevalue = $(".range").val();
+		console.log(rangevalue);
+		if (rangevalue == 1) {
 			$("img.1").css("display","inline"),
 			$("img.2, img.3, img.4, img.5, img.6, img.7").css("display","none");
 		}
@@ -81,21 +74,10 @@ $(document).ready(function() {
 			$("img.7").css("display","inline");
 			$("img.1, img.2, img.3, img.4, img.5, img.6").css("display","none");
 		}
-
-      }
-    });
-
-    $( "#amount" ).val( "$" + $( "#slider" ).slider( "value" ) );
-
-
-	$("img.4").css("display","inline");
+	});
 
 });
 </script>
-
-<link rel="stylesheet" href="slider-style.css">
-<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
 </head>
 
@@ -116,9 +98,8 @@ Please move the cursor to select the image you find most attractive.
 	<img class="image 6" src="image6/6.jpg" />
 	<img class="image 7" src="image6/7.jpg" />
 </p>
-<div id="slider"></div>
 <form action="q22.php" method="POST">
-	<input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;">
+	<input type="range" min="1" max="7" value="4" step="1" name="image6" class="range"/>
 	<input type="submit" value="Next">
 </form>
 </body>

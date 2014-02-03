@@ -45,17 +45,23 @@ $_SESSION['image8'];
         type="text/javascript"></script>
 
 <script>
-$(document).ready(function() {
 
-	$( "#slider" ).slider({
+ $(function() {
+    $( "#slider" ).slider({
       value:4,
       min: 1,
       max: 7,
       step: 1,
       slide: function( event, ui ) {
-        $( "#amount" ).val( ui.value );
-        var rangevalue = $( "#amount" ).val();
-        console.log(rangevalue);
+        $( "#amount" ).val( "$" + ui.value );
+      }
+    });
+    var rangevalue = $( "#amount" ).val($( "#slider" ).slider( "value" ) );
+    console.log(rangevalue);
+  });
+
+
+$(document).ready(function() {
 
         if (rangevalue == 1) {
 			$("img.1").css("display","inline"),
@@ -85,15 +91,10 @@ $(document).ready(function() {
 			$("img.7").css("display","inline");
 			$("img.1, img.2, img.3, img.4, img.5, img.6").css("display","none");
 		}
-
-      }
-    });
-
-	$( "#amount" ).val( $( "#slider" ).slider( "value" ) );
-
-	$("img.4").css("display","inline");
-
 });
+
+$("img.4").css("display","inline");
+
 </script>
 
 <link rel="stylesheet" href="slider-style.css">

@@ -54,7 +54,7 @@ $_SESSION['image8'];
       step: 1,
       slide: function( event, ui ) {
         
-      	var rangevalue = $( "#amount" ).val( ui.value );
+      	var rangevalue = $( "#amount" ).val( $( "#slider" ).slider( "value" ) );
     	console.log(rangevalue);
 
         if (rangevalue == 1) {

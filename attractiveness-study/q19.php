@@ -39,56 +39,60 @@ $_SESSION['image3'];
 <script src="http://code.jquery.com/jquery-latest.min.js"
         type="text/javascript"></script>
 <script>
-$(document).ready(function() {
 
-	$( "#slider" ).slider({
+ $(function() {
+ 	$("img.4").css("display","inline");
+    $( "#slider" ).slider({
       value:4,
       min: 1,
       max: 7,
       step: 1,
       slide: function( event, ui ) {
-        $( "#amount" ).val( ui.value );
-        var rangevalue = $( "#amount" ).val();
-        console.log(rangevalue);
+ 
+      		var rangevalue = ui.value
+    		console.log(rangevalue);
 
         if (rangevalue == 1) {
 			$("img.1").css("display","inline"),
 			$("img.2, img.3, img.4, img.5, img.6, img.7").css("display","none");
+			$( "#amount" ).val(1);
 		}
 		if (rangevalue == 2) {
 			$("img.2").css("display","inline");
 			$("img.1, img.3, img.4, img.5, img.6, img.7").css("display","none");
+			$( "#amount" ).val(2);
 		}
 		if (rangevalue == 3) {
 			$("img.3").css("display","inline");
 			$("img.1, img.2, img.4, img.5, img.6, img.7").css("display","none");
+			$( "#amount" ).val(3);
 		}
 		if (rangevalue == 4) {
 			$("img.4").css("display","inline");
 			$("img.1, img.2, img.3, img.5, img.6, img.7").css("display","none");
+			$( "#amount" ).val(4);
 		}
 		if (rangevalue == 5) {
 			$("img.5").css("display","inline");
 			$("img.1, img.2, img.3, img.4, img.6, img.7").css("display","none");
+			$( "#amount" ).val(5);
 		}
 		if (rangevalue == 6) {
 			$("img.6").css("display","inline");
 			$("img.1, img.2, img.3, img.4, img.5, img.7").css("display","none");
+			$( "#amount" ).val(6);
 		}
 		if (rangevalue == 7) {
 			$("img.7").css("display","inline");
 			$("img.1, img.2, img.3, img.4, img.5, img.6").css("display","none");
+			$( "#amount" ).val(7);
 		}
+
 
       }
     });
-
-    $( "#amount" ).val( "$" + $( "#slider" ).slider( "value" ) );
-
-
-	$("img.4").css("display","inline");
-
 });
+
 </script>
 
 <link rel="stylesheet" href="slider-style.css">
@@ -116,7 +120,7 @@ Please move the slider to select the image you find most attractive.
 </p>
 <div id="slider"></div>
 <form action="q20.php" method="POST">
-	<input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;">
+	<input type="text" id="amount" name="image4">
 	<input type="submit" value="Next">
 </form>
 </body>

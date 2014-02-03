@@ -60,36 +60,42 @@ $(document).ready(function() {
         if (rangevalue == 1) {
 			$("img.1").css("display","inline"),
 			$("img.2, img.3, img.4, img.5, img.6, img.7").css("display","none");
+			$( "#amount" ).val(1);
 		}
 		if (rangevalue == 2) {
 			$("img.2").css("display","inline");
 			$("img.1, img.3, img.4, img.5, img.6, img.7").css("display","none");
+			$( "#amount" ).val(2);
 		}
 		if (rangevalue == 3) {
 			$("img.3").css("display","inline");
 			$("img.1, img.2, img.4, img.5, img.6, img.7").css("display","none");
+			$( "#amount" ).val(3);
 		}
 		if (rangevalue == 4) {
 			$("img.4").css("display","inline");
 			$("img.1, img.2, img.3, img.5, img.6, img.7").css("display","none");
+			$( "#amount" ).val(4);
 		}
 		if (rangevalue == 5) {
 			$("img.5").css("display","inline");
 			$("img.1, img.2, img.3, img.4, img.6, img.7").css("display","none");
+			$( "#amount" ).val(5);
 		}
 		if (rangevalue == 6) {
 			$("img.6").css("display","inline");
 			$("img.1, img.2, img.3, img.4, img.5, img.7").css("display","none");
+			$( "#amount" ).val(6);
 		}
 		if (rangevalue == 7) {
 			$("img.7").css("display","inline");
 			$("img.1, img.2, img.3, img.4, img.5, img.6").css("display","none");
+			$( "#amount" ).val(7);
 		}
 
       }
     });
 
-    $( "#amount" ).val( "$" + $( "#slider" ).slider( "value" ) );
 
 
 	$("img.4").css("display","inline");

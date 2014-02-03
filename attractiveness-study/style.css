@@ -241,9 +241,7 @@ body#survey.finished{
 	color: white;
 }
 
-input#amount{
-	visibility: hidden;
-}
+
 
 div#slider{
 	max-width: 400px;

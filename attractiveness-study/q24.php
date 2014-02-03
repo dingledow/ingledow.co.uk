@@ -58,10 +58,6 @@ $_SESSION['image8'];
     });
     var rangevalue = $( "#amount" ).val($( "#slider" ).slider( "value" ) );
     console.log(rangevalue);
-  });
-
-
-$(document).ready(function() {
 
         if (rangevalue == 1) {
 			$("img.1").css("display","inline"),
